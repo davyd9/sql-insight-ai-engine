@@ -1,0 +1,26 @@
+# Secrets
+.env
+.env.*
+!.env.example
+*secret*
+*credentials*.json
+*.pem
+*.key
+
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Java / Maven
+target/
+build/
+.gradle/
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.iml
